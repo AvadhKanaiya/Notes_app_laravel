@@ -11,13 +11,7 @@
         </button>
     </div>
     @endif
-    @if($message=Session::get('update_note'))
-    <div class="alert alert-success alert-dismissible fade show text-capitalize mt-3" role="alert">
-        Note has been updated.😃
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-        </button>
-    </div>
-    @endif
+
     @if($message=Session::get('delete'))
     <div class="alert alert-danger alert-dismissible fade show text-capitalize mt-3" role="alert">
         Note has been deleted.
