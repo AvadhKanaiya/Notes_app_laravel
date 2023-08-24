@@ -22,5 +22,5 @@
 - Import the database file notes_db into your phpmyadmin.
 - Go to the Notes_app directory and open Command line(CMD) in it.
 - After opening Command line(CMD) write this command to start Laravel server "php artisan serve"
-- Make sure you have started Appache and MySql server from the xampp control pannel.
+- Make sure you have started Apache and MySql server from the xampp control pannel.
 - Run the port no. localhost/8000 on your browser and now you can use this project.
