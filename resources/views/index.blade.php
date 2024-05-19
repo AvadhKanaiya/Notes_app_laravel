@@ -1,7 +1,8 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-    <button type="button" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <h2 class="mt-4 text-center text-danger">Thought Pad..</h2>
+    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
         New Note
     </button>
     @if($message=Session::get('store'))
